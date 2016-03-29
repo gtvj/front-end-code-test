@@ -7,7 +7,7 @@ This test contains a number of questions covering:
 3. CSS
 4. jQuery and JavaScript
 
-Some of the questions will require candidates to edit files
+Some of the questions will require candidates to edit tfiles
 containing demo code and to debug/improve this code. Having done so,
 candidates are asked to submit their changes as a pull request to this
 repository.
@@ -42,12 +42,13 @@ featured browsers [Maxiumum 5 marks]
 
 * Given the HTML below, write a CSS3 rule that will give prepend the text ‘Tel:’ to the third list item. You are not able to amend the HTML to achieve this. [Maxiumum 3 marks]
 ```html
-<body> <ul>
-       <li>The National Archives</li>
-       <li>Kew, Richmond, Surrey, TW9 4DU</li>
-       <li>+44 (0) 20 8876 3444</li>
-      <li><a href=”#”>nationalarchives.gov.uk</a></li>
-     </ul>
+<body> 
+  <ul>
+    <li>The National Archives</li>
+    <li>Kew, Richmond, Surrey, TW9 4DU</li>
+    <li>+44 (0) 20 8876 3444</li>
+    <li><a href=”#”>nationalarchives.gov.uk</a></li>
+  </ul>
 </body>
 ```
 * What changes would you suggest to make these CSS rules ready for a
