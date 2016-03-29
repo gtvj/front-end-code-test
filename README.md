@@ -7,7 +7,7 @@ This test contains a number of questions covering:
 3. CSS
 4. jQuery and JavaScript
 
-Some of the questions will require candidates to download HTML files
+Some of the questions will require candidates to edit files
 containing demo code and to debug/improve this code. Having done so,
 candidates are asked to submit their changes as a pull request to this
 repository.
@@ -73,4 +73,7 @@ production environment? [Maximum 3 marks]
      </body>
 </html>
 ```
-HTML
+## HTML
+
+A test using HTML5 is provided in test-html.html within this repository.
+Please amend the code and submit your changes as a pull request.
