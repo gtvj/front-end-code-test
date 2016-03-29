@@ -32,3 +32,15 @@ featured browsers [Maxiumum 5 marks]
    </button>
 ```
 [Maximum 3 marks]
+
+3. Describe three ways to decrease page load time (answers may include perceived or actual load times)
+
+[Maximum 3 marks]
+
+## JavaScript and jQuery
+
+4. A DOM manipulation exercise using jQuery is provided in jquery.html. Please make the necessary changes to the code and submit your changes as a pull request to this repository. 
+
+[Maxiumum 5 marks]
+
+
