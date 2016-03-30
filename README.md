@@ -15,11 +15,16 @@ repository.
 Candidates are asked to complete as many questions as possible in the
 allocated time.
 
-## Best practices
+## Accessibility
 
 * How would you incorporate features of HTML5, CSS3 and JavaScript into
-   a project in a way that does not disadvantage users of older/less
-featured browsers [Maxiumum 5 marks]
+   a project in a way that does not disadvantage users of:
+  * assistive technologies
+  * older/less featured browsers
+
+[Maxiumum 5 marks]
+
+## Best practices
 
 * Is this good quality code? Provide a brief justification of your
    answer. [Maximum 3 marks]
