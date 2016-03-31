@@ -26,7 +26,9 @@ Your answer should describe both ***how*** you would do this and describe ***wha
 
 ## JavaScript and jQuery
 
-### A DOM manipulation exercise using jQuery is provided in test-jquery.html. 
+### DOM manipulation 
+
+An exercise using jQuery is provided in test-jquery.html. 
 
 ### How would you perform client-side validation of an input that allows users to proceed only if the value entered is in either of the following two formats (in the example '0' could be any digit and the dashes should be retained if entered by the user):
 * 0000-0000
