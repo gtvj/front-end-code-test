@@ -18,7 +18,7 @@ Candidates will pair with an existing Senior Front End Developer that will be ab
 
 Your answer should describe both ***how*** you would do this and describe ***what*** specific features of HTML, ARIA, CSS and JavaScript you would use to achieve this.
 
-2. How would you implement a version of [GOV.UK browse](https://www.gov.uk/browse/) for an MOJ Digital service. Your answer should:
+2. How would you implement a version of [GOV.UK browse](https://www.gov.uk/browse/) for a new digital service. Your answer should:
 
 * identify, so far as possible, what GOV.UK have done to ensure accessibility and progressive enhancement
 * assume you're approaching this from scratch
@@ -38,7 +38,32 @@ add(2, 5); // 7
 add(2)(5); // 7
 ```
 
+4. The code below relies on closures. Describe closures and their benefits. 
 
+```javascript 
+function sandwichMaker(magicIngredient) {
+    function make(filling) {
+        return magicIngredient + " and " + filling;
+    }
+    return make;
+}
+var hamAnd = sandwichMaker("ham");
+hamAnd("cheese");        // "ham and cheese"
+hamAnd("mustard");       // "ham and mustard"
+var turkeyAnd = sandwichMaker("turkey");
+turkeyAnd("Swiss");      // "turkey and Swiss"
+turkeyAnd("Provolone");  // "turkey and Provolone"
+```
+
+5. If you saw this in a Pull Request, what would your advice be:
+
+```javascript 
+Array.prototype.split = function(i) { // Adds split to all arrays
+    return [this.slice(0, i), this.slice(i)];
+};
+```
+
+6. 
 
 ## CSS
 
@@ -46,10 +71,10 @@ add(2)(5); // 7
 ```html
 <body> 
   <ul>
-    <li>The National Archives</li>
-    <li>Kew, Richmond, Surrey, TW9 4DU</li>
-    <li>+44 (0) 20 8876 3444</li>
-    <li><a href=”#”>nationalarchives.gov.uk</a></li>
+    <li>JavaScript</li>
+    <li>HTML</li>
+    <li>Ruby</li>
+    <li>Python</li>
   </ul>
 </body>
 ```
