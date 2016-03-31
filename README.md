@@ -2,11 +2,11 @@
 
 This front end development test is intended to cover a broad range of skills required to deliver high quality government digital services. This includes:
 
-### Accessibility
-### HTML
-### CSS
-### jQuery and JavaScript
-### Other best practices
+* Accessibility
+* HTML
+* CSS
+* jQuery and JavaScript
+* Other best practices
 
 Candidates will pair with an existing Senior Front End Developer that will be able to help candates or clarify anything that is not clear.
 
