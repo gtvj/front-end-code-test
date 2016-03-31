@@ -2,43 +2,43 @@
 
 This front end development test is intended to cover a broad range of skills required to deliver high quality government digital services. This includes:
 
-1. Accessibility
-2. HTML
-3. CSS
-4. jQuery and JavaScript
-5. Other best practices
+### Accessibility
+### HTML
+### CSS
+### jQuery and JavaScript
+### Other best practices
 
 Candidates will pair with an existing Senior Front End Developer that will be able to help candates or clarify anything that is not clear.
 
 ## Accessibility
 
-1. Describe how you would implement the ***'I am looking for...'*** tab panel that appears on [justice.gov.uk](https://www.justice.gov.uk) with a specific focus on not disadvantaging users of: 
+### Describe how you would implement the ***'I am looking for...'*** tab panel that appears on [justice.gov.uk](https://www.justice.gov.uk) with a specific focus on not disadvantaging users of: 
     * Assistive technology
     * Older/less featured browsers
 
 Your answer should describe both ***how*** you would do this and describe ***what*** specific features of HTML, ARIA, CSS and JavaScript you would use to achieve this.
 
-2. How would you implement a version of [GOV.UK browse](https://www.gov.uk/browse/) for a new digital service. Your answer should:
+### How would you implement a version of [GOV.UK browse](https://www.gov.uk/browse/) for a new digital service. Your answer should:
 
 * identify, so far as possible, what GOV.UK have done to ensure accessibility and progressive enhancement
 * assume you're approaching this from scratch
 
 ## JavaScript and jQuery
 
-1. A DOM manipulation exercise using jQuery is provided in test-jquery.html. 
+### A DOM manipulation exercise using jQuery is provided in test-jquery.html. 
 
-2. How would you perform client-side validation of an input that allows users to proceed only if the value entered is in either of the following two formats (in the example '0' could be any digit and the dashes should be retained if entered by the user):
+### How would you perform client-side validation of an input that allows users to proceed only if the value entered is in either of the following two formats (in the example '0' could be any digit and the dashes should be retained if entered by the user):
     * 0000-0000
     * 0-000-0000
     
-3. How would you make this work? 
+### How would you make this work? 
 
 ```javascript
 add(2, 5); // 7
 add(2)(5); // 7
 ```
 
-4. The code below relies on closures. Describe closures and their benefits. 
+### The code below relies on closures. Describe closures and their benefits. 
 
 ```javascript 
 function sandwichMaker(magicIngredient) {
@@ -55,7 +55,7 @@ turkeyAnd("Swiss");      // "turkey and Swiss"
 turkeyAnd("Provolone");  // "turkey and Provolone"
 ```
 
-5. If you saw this in a Pull Request, what would your advice be:
+### If you saw this in a Pull Request, what would your advice be:
 
 ```javascript 
 Array.prototype.split = function(i) { // Adds split to all arrays
@@ -63,7 +63,7 @@ Array.prototype.split = function(i) { // Adds split to all arrays
 };
 ```
 
-6. Write a ```log()``` function which acts as a proxy for ```console.log()```. This function should accept any number of arguments and prepends the text 'Logging: ' to any logged message.
+### Write a ```log()``` function which acts as a proxy for ```console.log()```. This function should accept any number of arguments and prepends the text 'Logging: ' to any logged message.
 
 ## CSS
 
@@ -121,12 +121,12 @@ Please amend the code and submit your changes as a pull request.
 
 ## Testing 
 
-1. What are **the key things you need to test for** on the front-end of digital services 
-2. How do you ***how*** approach testing?
+### What are **the key things you need to test for** on the front-end of digital services?
+### How do you ***how*** approach testing the front end of applications?
 
 ## Best practices
 
-1. Is this good quality code? Provide a brief justification of your
+### Is this good quality code? Provide a brief justification of your
    answer. 
 
 ```css
@@ -137,6 +137,6 @@ Please amend the code and submit your changes as a pull request.
    </button>
 ```
 
-2. Describe three ways to decrease page load time (answers may include perceived or actual load times) 
+### Describe three ways to decrease page load time (answers may include perceived or actual load times) 
 
-3. Why is it generally a good idea to position CSS ```<link>```s between ```<head></head>``` and JS ```<script>```s just before ```</body>```? Do you know any exceptions?
+### Why is it generally a good idea to position CSS ```<link>```s between ```<head></head>``` and JS ```<script>```s just before ```</body>```? Do you know any exceptions?
