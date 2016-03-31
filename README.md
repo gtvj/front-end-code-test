@@ -63,7 +63,7 @@ Array.prototype.split = function(i) { // Adds split to all arrays
 };
 ```
 
-6. 
+6. Write a ```log()``` function which acts as a proxy for ```console.log()```. This function should accept any number of arguments and prepends the text 'Logging: ' to any logged message.
 
 ## CSS
 
@@ -108,8 +108,8 @@ Please amend the code and submit your changes as a pull request.
 
 ## Testing 
 
-1. ***What*** are the key things you need to test for on the front-end of digital services and ***how*** do you approach testing?
-
+1. What are **the key things you need to test for** on the front-end of digital services 
+2. How do you ***how*** approach testing?
 
 ## Best practices
 
