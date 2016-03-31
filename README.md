@@ -67,6 +67,19 @@ Array.prototype.split = function(i) { // Adds split to all arrays
 
 ## CSS
 
+* How would you style all links to 'gov.uk' domains differently to other links in an application?
+
+* What colour would each of the following elements be (Assume each pair of rules are targeting the same element)
+```css
+h1 {color: red;}
+body h1 {color: green;}
+
+h2.grape {color: purple;}
+h2 {color: silver;}
+
+html > body table tr[id="totals"] td ul > li {color: maroon;} // li has an id of answer
+li#answer {color: navy;}
+```
 * Given the HTML below, write a CSS3 rule that will give prepend the text ‘Tel:’ to the third list item. You are not able to amend the HTML to achieve this. 
 ```html
 <body> 
