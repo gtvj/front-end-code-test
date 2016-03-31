@@ -76,9 +76,7 @@ log('Hello', 'again'); // 'Logging: Hello' 'Logging: again'
 
 ## CSS
 
-* How would you style all links to 'gov.uk' domains differently to other links in an application?
-
-* What colour would each of the following elements be (Assume each pair of rules are targeting the same element)
+### What colour would each of the following elements be (Assume each pair of rules are targeting the same element)
 ```css
 h1 {color: red;}
 body h1 {color: green;}
@@ -89,6 +87,8 @@ h2 {color: silver;}
 html > body table tr[id="totals"] td ul > li {color: maroon;} // li has an id of answer
 li#answer {color: navy;}
 ```
+
+
 * Given the HTML below, write a CSS3 rule that will give prepend the text ‘Tel:’ to the third list item. You are not able to amend the HTML to achieve this. 
 ```html
 <body> 
@@ -100,7 +100,7 @@ li#answer {color: navy;}
   </ul>
 </body>
 ```
-* What changes would you suggest to make these CSS rules ready for a
+### What changes would you suggest to make these CSS rules ready for a
 production environment? 
 ```html
 <!DOCTYPE html>
@@ -123,6 +123,7 @@ production environment?
      </body>
 </html>
 ```
+### How would you style all links to 'gov.uk' domains differently to other links in an application?
 ## HTML
 
 A test using HTML5 is provided in test-html.html within this repository.
