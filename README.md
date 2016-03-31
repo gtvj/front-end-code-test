@@ -12,15 +12,15 @@ Candidates will pair with an existing Senior Front End Developer that will be ab
 
 ## Accessibility
 
-![alt text](https://github.com/gtvj/front-end-code-test/images/tab-panel.png "Tab panel")
-
-1. Describe how you would implement this design, with a specific focus on not disadvantaging users of: 
+1. Describe how you would implement the ***'I am looking for...'*** tab panel that appears on [justice.gov.uk](https://www.justice.gov.uk) with a specific focus on not disadvantaging users of: 
     * Assistive technology
     * Older/less featured browsers
 
-Your answer should describe both ***how and what*** specific features of HTML, CSS, ARIA and JavaScript.
+Your answer should describe both ***how and what*** you would do with a description of the specific features of HTML, ARIA, CSS and JavaScript.
 
-[Maxiumum 5 marks]
+[Maxiumum 8 marks]
+
+2. What progressive enhancement and accessibility considerations would apply if you were asked to implement a version of [GOV.UK browse](https://www.gov.uk/browse/) for MOJ Digital. Your should assume you're approaching this from scratch and identify the key things GOV.UK have got right.
 
 ## Best practices
 
@@ -81,3 +81,7 @@ production environment? [Maximum 3 marks]
 
 A test using HTML5 is provided in test-html.html within this repository.
 Please amend the code and submit your changes as a pull request.
+
+## Testing 
+
+1. ***What*** are the key things you need to test for on the front-end of digital services and ***how*** do you approach testing?
