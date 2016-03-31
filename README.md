@@ -1,25 +1,28 @@
 # Technical skills test
 
-This test contains a number of questions covering:
+This front end development test is intended to cover a broad range of skills required to deliver high quality government digital services. This includes:
 
-1. Web best practices
+1. Accessibility
 2. HTML
 3. CSS
 4. jQuery and JavaScript
+5. Other best practices
 
-Some of the questions will require candidates to edit tfiles
-containing demo code and to debug/improve this code. Having done so,
-candidates are asked to submit their changes as a pull request to this
-repository.
+Candidates will pair with an existing Senior Front End Developer that will be able to help candates or clarify anything that is not clear.
 
-Candidates are asked to complete as many questions as possible in the
-allocated time.
+## Accessibility
+
+![alt text](https://github.com/gtvj/front-end-code-test/images/tab-panel.png "Tab panel")
+
+1. Describe how you would implement this design, with a specific focus on not disadvantaging users of: 
+    * Assistive technology
+    * Older/less featured browsers
+
+Your answer should describe both ***how and what*** specific features of HTML, CSS, ARIA and JavaScript.
+
+[Maxiumum 5 marks]
 
 ## Best practices
-
-* How would you incorporate features of HTML5, CSS3 and JavaScript into
-   a project in a way that does not disadvantage users of older/less
-featured browsers [Maxiumum 5 marks]
 
 * Is this good quality code? Provide a brief justification of your
    answer. [Maximum 3 marks]
