@@ -89,7 +89,7 @@ li#answer {color: navy;}
 ```
 
 
-* Given the HTML below, write a CSS3 rule that will give prepend the text ‘Tel:’ to the third list item. You are not able to amend the HTML to achieve this. 
+### Given the HTML below, write a CSS3 rule that will give prepend the text ‘Tel:’ to the third list item. You are not able to amend the HTML to achieve this. 
 ```html
 <body> 
   <ul>
