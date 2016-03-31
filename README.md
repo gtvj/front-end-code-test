@@ -100,8 +100,7 @@ li#answer {color: navy;}
   </ul>
 </body>
 ```
-### What changes would you suggest to make these CSS rules ready for a
-production environment? 
+### What changes would you suggest to make these CSS rules ready for a production environment? 
 ```html
 <!DOCTYPE html>
 <html>
