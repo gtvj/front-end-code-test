@@ -12,9 +12,10 @@ Candidates will pair with an existing Senior Front End Developer that will be ab
 
 ## Accessibility
 
-### Describe how you would implement the ***'I am looking for...'*** tab panel that appears on [justice.gov.uk](https://www.justice.gov.uk) with a specific focus on not disadvantaging users of: 
-    * Assistive technology
-    * Older/less featured browsers
+### Describe how you would implement the ***'I am looking for...'*** tab panel that appears on [justice.gov.uk](https://www.justice.gov.uk) with a specific focus on not disadvantaging users of:
+ 
+* Assistive technology
+* Older/less featured browsers
 
 Your answer should describe both ***how*** you would do this and describe ***what*** specific features of HTML, ARIA, CSS and JavaScript you would use to achieve this.
 
@@ -28,8 +29,8 @@ Your answer should describe both ***how*** you would do this and describe ***wha
 ### A DOM manipulation exercise using jQuery is provided in test-jquery.html. 
 
 ### How would you perform client-side validation of an input that allows users to proceed only if the value entered is in either of the following two formats (in the example '0' could be any digit and the dashes should be retained if entered by the user):
-    * 0000-0000
-    * 0-000-0000
+* 0000-0000
+* 0-000-0000
     
 ### How would you make this work? 
 
