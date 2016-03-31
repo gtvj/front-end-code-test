@@ -16,34 +16,31 @@ Candidates will pair with an existing Senior Front End Developer that will be ab
     * Assistive technology
     * Older/less featured browsers
 
-Your answer should describe both ***how and what*** you would do with a description of the specific features of HTML, ARIA, CSS and JavaScript.
+Your answer should describe both ***how*** you would do this and describe ***what*** specific features of HTML, ARIA, CSS and JavaScript you would use to achieve this.
 
-[Maxiumum 8 marks]
+2. How would you implement a version of [GOV.UK browse](https://www.gov.uk/browse/) for an MOJ Digital service. Your answer should:
 
-2. What progressive enhancement and accessibility considerations would apply if you were asked to implement a version of [GOV.UK browse](https://www.gov.uk/browse/) for MOJ Digital. Your should assume you're approaching this from scratch and identify the key things GOV.UK have got right.
-
-## Best practices
-
-* Is this good quality code? Provide a brief justification of your
-   answer. [Maximum 3 marks]
-
-```css
-   <button
-     type="button"
-     onclick="document.getElementById('xyz').style.color='red';">
-       Click Me
-   </button>
-```
-
-* Describe three ways to decrease page load time (answers may include perceived or actual load times) [Maximum 3 marks]
+* identify, so far as possible, what GOV.UK have done to ensure accessibility and progressive enhancement
+* assume you're approaching this from scratch
 
 ## JavaScript and jQuery
 
-* A DOM manipulation exercise using jQuery is provided in test-jquery.html. Please make the necessary changes to the code and submit your changes as a pull request to this repository. [Maxiumum 5 marks]
+1. A DOM manipulation exercise using jQuery is provided in test-jquery.html. Please make the necessary changes to the code and submit your changes as a pull request to this repository. 
+
+2. You have been asked to perform client-side validation of an input allows users to proceed only if the value entered is in either of the following two formats (in the example '0' could be any digit and the dashes are required):
+    * 00-00-0000
+    * 0-000-0000
+3. How would you make this work? 
+
+```javascript
+add(2, 5); // 7
+add(2)(5); // 7
+```
+
 
 ## CSS
 
-* Given the HTML below, write a CSS3 rule that will give prepend the text ‘Tel:’ to the third list item. You are not able to amend the HTML to achieve this. [Maxiumum 3 marks]
+* Given the HTML below, write a CSS3 rule that will give prepend the text ‘Tel:’ to the third list item. You are not able to amend the HTML to achieve this. 
 ```html
 <body> 
   <ul>
@@ -55,7 +52,7 @@ Your answer should describe both ***how and what*** you would do with a descript
 </body>
 ```
 * What changes would you suggest to make these CSS rules ready for a
-production environment? [Maximum 3 marks]
+production environment? 
 ```html
 <!DOCTYPE html>
 <html>
@@ -85,3 +82,21 @@ Please amend the code and submit your changes as a pull request.
 ## Testing 
 
 1. ***What*** are the key things you need to test for on the front-end of digital services and ***how*** do you approach testing?
+
+
+## Best practices
+
+1. Is this good quality code? Provide a brief justification of your
+   answer. 
+
+```css
+   <button
+     type="button"
+     onclick="document.getElementById('xyz').style.color='red';">
+       Click Me
+   </button>
+```
+
+2. Describe three ways to decrease page load time (answers may include perceived or actual load times) 
+
+3. Why is it generally a good idea to position CSS ```<link>```s between ```<head></head>``` and JS ```<script>```s just before ```</body>```? Do you know any exceptions?
