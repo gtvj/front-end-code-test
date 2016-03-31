@@ -68,6 +68,12 @@ Array.prototype.split = function(i) { // Adds split to all arrays
 
 ### Write a ```log()``` function which acts as a proxy for ```console.log()```. This function should accept any number of arguments and prepends the text 'Logging: ' to any logged message.
 
+```javascript
+log('Hello'); // 'Logging: Hello'
+log('Hello', 'again'); // 'Logging: Hello' 'Logging: again'
+
+```
+
 ## CSS
 
 * How would you style all links to 'gov.uk' domains differently to other links in an application?
