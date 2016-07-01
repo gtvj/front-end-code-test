@@ -8,7 +8,7 @@ This front end development test is intended to cover a broad range of skills req
 * jQuery and JavaScript
 * Other best practices
 
-Candidates will pair with an existing Senior Front End Developer that will be able to help candates or clarify anything that is not clear.
+Candidates are asked to perform this test remotely and submit their responses to the sender. 
 
 ## Accessibility
 
